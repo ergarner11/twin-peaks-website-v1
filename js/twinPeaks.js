@@ -31,6 +31,6 @@ function password()
 function moreInformation()
 {
 
-	var w=window.open('assets/contractH.pdf','_blank');
+	var w=window.open('assets/contractI.pdf','_blank');
 
 }
