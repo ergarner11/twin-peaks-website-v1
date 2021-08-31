@@ -3,177 +3,202 @@ To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
 and open the template in the editor.
 */
+
+
 /* 
     Created on : Nov 21, 2014, 11:08:18 PM
     Author     : garn3_000
 */
+
 h1 {
-    margin-top: 10px;
-    margin-bottom: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .fb-share-button {
-    transform: scale(1.75);
-    -ms-transform: scale(1.75);
-    -webkit-transform: scale(1.75);
-    -o-transform: scale(1.75);
-    -moz-transform: scale(1.75);
-    transform-origin: top left;
-    -ms-transform-origin: top left;
-    -webkit-transform-origin: top left;
-    -moz-transform-origin: top left;
-    -webkit-transform-origin: top left;
-    padding-top: -15px;
+  transform: scale(1.75);
+  -ms-transform: scale(1.75);
+  -webkit-transform: scale(1.75);
+  -o-transform: scale(1.75);
+  -moz-transform: scale(1.75);
+  transform-origin: top left;
+  -ms-transform-origin: top left;
+  -webkit-transform-origin: top left;
+  -moz-transform-origin: top left;
+  -webkit-transform-origin: top left;
+  padding-top: -15px;
 }
 
-#request-appt, #refill-script {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    text-align: left;
-    width: 135px;
-    padding: 0px;
-    height: 50px;
-    max-height: 50px;
-    border-radius: 5px;
-    border: none;
-    padding:0px;
-    margin:0px;
+#request-appt,
+#refill-script,
+#hp-portal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: left;
+  width: 135px;
+  padding: 0px;
+  height: 50px;
+  max-height: 50px;
+  border-radius: 5px;
+  border: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+#hp-portal {
+  background-color: #3c8271;
+  align-self: center;
+}
+
+#hp-portal:hover {
+  background-color: #244e44;
 }
 
 #request-appt {
-    background-color: #dd3444;
-    margin-right: 20px;
+  background-color: #dd3444;
+  margin-right: 20px;
 }
 
 #request-appt:hover {
-    background-color: #c82333;
-    border: 1px solid #bd2130;
+  background-color: #c82333;
+  border: 1px solid #bd2130;
 }
 
 #refill-script {
-    background-color: #5bc1de;
+  background-color: #5bc1de;
 }
 
 #refill-script:hover {
-    background-color: #30b1d5;
+  background-color: #30b1d5;
 }
 
-#request-appt a, #refill-script a {
-    padding:0px;
-    color: white;
+#request-appt a,
+#refill-script a,
+#hp-portal a {
+  padding: 0px;
+  color: white;
 }
 
-#request-appt i, #refill-script i {
-    font-size:2em;
-    margin: 10px;
-    color: white;
+#request-appt i,
+#refill-script i,
+#hp-portal i {
+  font-size: 2em;
+  margin: 10px;
+  color: white;
 }
 
 .flex-row {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .flex-column {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .doctor {
-    float: left;
-    padding-right: 15px;
-    transform: scale(1.75);
-    -ms-transform: scale(1.75);
-    -webkit-transform: scale(1.75);
-    -o-transform: scale(1.75);
-    -moz-transform: scale(1.75);
+  float: left;
+  padding-right: 15px;
+  transform: scale(1.75);
+  -ms-transform: scale(1.75);
+  -webkit-transform: scale(1.75);
+  -o-transform: scale(1.75);
+  -moz-transform: scale(1.75);
 }
 
 .care-credit {
-    display:flex;
-    flex-direction: column;
-    align-items:center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 @media screen and (max-width: 767px) {
-    h1 {
-        font-size:1.5em;
-    }
-    h2 {
-        font-size:1.4em;
-    }
-    h3 {
-        font-size:1.3em;
-    }
+  h1 {
+    font-size: 1.5em;
+  }
+  h2 {
+    font-size: 1.4em;
+  }
+  h3 {
+    font-size: 1.3em;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
-    h1 {
-        font-size:1.7em;
-    }
-    h2 {
-        font-size:1.6em;
-    }
-    h3 {
-        font-size:1.5em;
-    }
-    span {
-        font-size:.8em;
-    }
-    #request-appt {
-        margin-right: 10px;
-    }
-    #request-appt a, #refill-script a {
-        font-size: .8em;
-    }
-    #request-appt i, #refill-script i {
-        font-size: 1.5em;
-        margin: 5px;
-    }
+  h1 {
+    font-size: 1.7em;
+  }
+  h2 {
+    font-size: 1.6em;
+  }
+  h3 {
+    font-size: 1.5em;
+  }
+  span {
+    font-size: 0.8em;
+  }
+  #request-appt {
+    margin-right: 10px;
+  }
+  #request-appt a,
+  #refill-script a {
+    font-size: 0.8em;
+  }
+  #request-appt i,
+  #refill-script i {
+    font-size: 1.5em;
+    margin: 5px;
+  }
 }
 
 @media screen and (min-width: 500px) {
-    .care-credit {
-        flex-direction: row;
-        justify-content:space-evenly;
-    }
+  .care-credit {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
 }
 
-@media screen and (min-width: 455px) and (max-width: 510px){
-    .info {
-        margin-left: 5%;
-    }
+@media screen and (min-width: 455px) and (max-width: 510px) {
+  .info {
+    margin-left: 5%;
+  }
 }
-@media screen and (min-width: 511px) and (max-width: 575px){
-    .info {
-        margin-left: 10%;
-    }
+
+@media screen and (min-width: 511px) and (max-width: 575px) {
+  .info {
+    margin-left: 10%;
+  }
 }
-@media screen and (min-width: 576px) and (max-width: 670px){
-    .info {
-        margin-left: 15%;
-    }
+
+@media screen and (min-width: 576px) and (max-width: 670px) {
+  .info {
+    margin-left: 15%;
+  }
 }
-@media screen and (min-width: 671px) and (max-width: 730px){
-    .info {
-        margin-left: 20%;
-    }
+
+@media screen and (min-width: 671px) and (max-width: 730px) {
+  .info {
+    margin-left: 20%;
+  }
 }
-@media screen and (min-width: 731px) and (max-width: 768px){
-    .info {
-        margin-left: 22%;
-    }
+
+@media screen and (min-width: 731px) and (max-width: 768px) {
+  .info {
+    margin-left: 22%;
+  }
 }
 
 @media screen and (max-width: 1199px) {
-    .clinic-lg {
-        margin-top: 20px
-    }
+  .clinic-lg {
+    margin-top: 20px;
+  }
 }
+
 @media screen and (min-width: 1200px) {
-    .clinic-md {
-        margin-top: -30px;
-    }
+  .clinic-md {
+    margin-top: -30px;
+  }
 }
