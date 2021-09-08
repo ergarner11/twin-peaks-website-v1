@@ -1,90 +1,115 @@
 <!DOCTYPE html>
 <html prefix="og: http://ogp.me/ns#">
+  <head>
+    <meta
+      name="description"
+      content="We are an innovative, locally-owned practice offering small animal veterinary care. Our mission is to provide quality medicine at an affordable price"
+    />
+    <meta
+      name="keywords"
+      content="veterinary clinic, veterinarian, vet, Loveland, Colorado, 80537, 80538, pet hospital, small animal vet, cat, dog, affordable, DVM, pet hospital, Twin Peaks Veterinary Clinic, pet clinic, Twin Peaks Veterinary Hospital, Twin Peaks"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width = device-width, initial-scale = 1.0" />
 
-<head>
-  <meta name="description" content="We are an innovative, locally-owned practice offering small animal veterinary care. Our mission is to provide quality medicine at an affordable price" />
-  <meta name="keywords" content="veterinary clinic, veterinarian, vet, Loveland, Colorado, 80537, 80538, pet hospital, small animal vet, cat, dog, affordable, DVM, pet hospital, Twin Peaks Veterinary Clinic, pet clinic, Twin Peaks Veterinary Hospital, Twin Peaks"
-  />
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width = device-width, initial-scale = 1.0" />
+    <meta
+      property="og:title"
+      content="Twin Peaks Veterinary Clinic Has the Perfect Health Plan for Your Dog or Cat"
+    />
+    <meta property="og:site_name" content="Twin Peaks Veterinary Clinic" />
+    <meta
+      property="og:url"
+      content="https://twinpeaksvetclinic.com/healthPlan.html"
+    />
+    <meta
+      property="og:image"
+      content="https://twinpeaksvetclinic.com/assets/facebook.png"
+    />
+    <meta
+      property="og:description"
+      content="We are an innovative, locally-owned practice offering small animal veterinary care. Our mission is to provide quality medicine at an affordable price. Click to learn more about our Health Plan!"
+    />
 
-  <meta property="og:title" content="Twin Peaks Veterinary Clinic Has the Perfect Health Plan for Your Dog or Cat" />
-  <meta property="og:site_name" content="Twin Peaks Veterinary Clinic" />
-  <meta property="og:url" content="https://twinpeaksvetclinic.com/healthPlan.html" />
-  <meta property="og:image" content="https://twinpeaksvetclinic.com/assets/facebook.png" />
-  <meta property="og:description" content="We are an innovative, locally-owned practice offering small animal veterinary care. Our mission is to provide quality medicine at an affordable price. Click to learn more about our Health Plan!" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/styles.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="favicon.ico" />
 
-  <link href="css/bootstrap.min.css" rel="stylesheet" />
-  <link href="css/styles.css" rel="stylesheet" />
-  <link rel="shortcut icon" href="favicon.ico" />
+    <script
+      src="https://kit.fontawesome.com/438f1cfa8a.js"
+      crossorigin="anonymous"
+    ></script>
 
-  <script src="https://kit.fontawesome.com/438f1cfa8a.js" crossorigin="anonymous"></script>
+    <title>Twin Peaks Vet Clinic</title>
+  </head>
 
-  <title>Twin Peaks Vet Clinic</title>
-</head>
+  <body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/facebook.js"></script>
+    <script>
+      (function (i, s, o, g, r, a, m) {
+        i["GoogleAnalyticsObject"] = r;
+        (i[r] =
+          i[r] ||
+          function () {
+            (i[r].q = i[r].q || []).push(arguments);
+          }),
+          (i[r].l = 1 * new Date());
+        (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m);
+      })(
+        window,
+        document,
+        "script",
+        "//www.google-analytics.com/analytics.js",
+        "ga"
+      );
 
-<body>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/facebook.js"></script>
-  <script>
-    (function(i, s, o, g, r, a, m) {
-      i["GoogleAnalyticsObject"] = r;
-      (i[r] =
-        i[r] ||
-        function() {
-          (i[r].q = i[r].q || []).push(arguments);
-        }),
-      (i[r].l = 1 * new Date());
-      (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
-      a.async = 1;
-      a.src = g;
-      m.parentNode.insertBefore(a, m);
-    })(
-      window,
-      document,
-      "script",
-      "//www.google-analytics.com/analytics.js",
-      "ga"
-    );
+      ga("create", "UA-58120552-1", "auto");
+      ga("send", "pageview");
+    </script>
+    <div id="fb-root"></div>
 
-    ga("create", "UA-58120552-1", "auto");
-    ga("send", "pageview");
-  </script>
-  <div id="fb-root"></div>
-
-  <div>
-    <div class="container">
-      <div class="row hidden-xs flex-row" style="padding: 10px">
-        <div class="col-lg-4 col-md-4 col-sm-4 flex-column">
-          <img class="img-responsive" style="height: 180px" src="assets/logo.png" alt="Twin Peaks Veterinary Clinic logo" />
-          <button id="hp-portal">
+    <div>
+      <div class="container">
+        <div class="row hidden-xs flex-row" style="padding: 10px">
+          <div class="col-lg-4 col-md-4 col-sm-4 flex-column">
+            <img
+              class="img-responsive"
+              style="height: 180px"
+              src="assets/logo.png"
+              alt="Twin Peaks Veterinary Clinic logo"
+            />
+            <button id="hp-portal">
               <i class="fas fa-arrow-right"></i>
               <a href="https://portal.twinpeaksvetclinic.com" target="_blank">
                 Health Plan Portal
               </a>
             </button>
-        </div>
-
-        <div class="col-lg-4 col-md-4 col-sm-4 flex-column" style="font-size: 1.4em">
-          <h1 style="margin: 0px; font-size: 1.6em; padding-bottom: 10px">
-            Hours
-          </h1>
-          <span>Monday - Friday: 8am - 6pm</span>
-          <span>Saturday: 8am - 5pm</span>
-          <span>Sunday: Closed</span>
-          <br />
-          <span>Monday September 6th: Closed</span>
-        </div>
-
-        <div class="col-lg-4 col-md-4 col-sm-4">
-          <div class="flex-column" style="font-size: 1.4em">
-            <span>Phone/Text: 970-663-0218</span>
-            <span>4007 S Lincoln Ave, Suite 470</span>
-            <span>Loveland, CO 80537</span>
           </div>
-          <div class="flex-row" style="padding-top: 15px">
-            <button id="request-appt">
+
+          <div
+            class="col-lg-4 col-md-4 col-sm-4 flex-column"
+            style="font-size: 1.4em"
+          >
+            <h1 style="margin: 0px; font-size: 1.6em; padding-bottom: 10px">
+              Hours
+            </h1>
+            <span>Monday - Friday: 8am - 6pm</span>
+            <span>Saturday: 8am - 5pm</span>
+            <span>Sunday: Closed</span>
+          </div>
+
+          <div class="col-lg-4 col-md-4 col-sm-4">
+            <div class="flex-column" style="font-size: 1.4em">
+              <span>Phone/Text: 970-663-0218</span>
+              <span>4007 S Lincoln Ave, Suite 470</span>
+              <span>Loveland, CO 80537</span>
+            </div>
+            <div class="flex-row" style="padding-top: 15px">
+              <button id="request-appt">
                 <i class="far fa-calendar-check"></i>
                 <a
                   href="https://connect.allydvm.com/practice/twinpeaks/appointment_request"
@@ -93,7 +118,7 @@
                   Request Appointment
                 </a>
               </button>
-            <button id="refill-script">
+              <button id="refill-script">
                 <i class="fas fa-prescription-bottle-alt"></i>
                 <a
                   href="https://connect.allydvm.com/practice/twinpeaks/refill_request"
@@ -102,31 +127,34 @@
                   Refill Prescription
                 </a>
               </button>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="visible-xs" style="padding: 10px">
-        <div class="flex-column" style="align-items: center">
-          <img class="img-responsive" style="height: 150px" src="assets/logo.png" alt="Twin Peaks Veterinary Clinic logo" />
-          <div class="flex-column">
-            <span>Monday - Friday: 8am - 6pm</span>
-            <span>Saturday: 8am - 5pm</span>
-            <span>Sunday: Closed</span>
-            <br />
-            <span>Monday September 6th: Closed</span>
-            <br />
-            <span>Phone/Text: 970-663-0218</span>
-            <span>4007 S Lincoln Ave, Suite 470</span>
-            <span>Loveland, CO 80537</span>
-          </div>
-          <div class="flex-column" style="padding-top: 15px">
-            <button id="hp-portal">
+        <div class="visible-xs" style="padding: 10px">
+          <div class="flex-column" style="align-items: center">
+            <img
+              class="img-responsive"
+              style="height: 150px"
+              src="assets/logo.png"
+              alt="Twin Peaks Veterinary Clinic logo"
+            />
+            <div class="flex-column">
+              <span>Monday - Friday: 8am - 6pm</span>
+              <span>Saturday: 8am - 5pm</span>
+              <span>Sunday: Closed</span>
+              <br />
+              <span>Phone/Text: 970-663-0218</span>
+              <span>4007 S Lincoln Ave, Suite 470</span>
+              <span>Loveland, CO 80537</span>
+            </div>
+            <div class="flex-column" style="padding-top: 15px">
+              <button id="hp-portal">
                 <i class="fas fa-arrow-right"></i>
                 <a href="https://portal.twinpeaksvetclinic.com" target="_blank">
                   Health Plan Portal
                 </a>
               </button>
-            <button id="request-appt" style="margin: 0px; margin-top: 15px">
+              <button id="request-appt" style="margin: 0px; margin-top: 15px">
                 <i class="far fa-calendar-check"></i>
                 <a
                   href="https://connect.allydvm.com/practice/twinpeaks/appointment_request"
@@ -135,7 +163,7 @@
                   Request Appointment
                 </a>
               </button>
-            <button id="refill-script" style="margin-top: 15px">
+              <button id="refill-script" style="margin-top: 15px">
                 <i class="fas fa-prescription-bottle-alt"></i>
                 <a
                   href="https://connect.allydvm.com/practice/twinpeaks/refill_request"
@@ -144,64 +172,82 @@
                   Refill Prescription
                 </a>
               </button>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <nav class="navbar navbar-default" role="navigation">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle"
+            data-toggle="collapse"
+            data-target="#navbar"
+          >
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-      </div>
+        </div>
 
-      <div class="collapse navbar-collapse" id="navbar">
-        <ul class="nav navbar-nav navbar-right">
-          <li class="active"><a href="#">Home</a></li>
-          <li><a href="healthPlan.html">Health Plans</a></li>
-          <li><a href="pharmacy.html">Online Store & Pharmacy</a></li>
-          <li><a href="meetTheDoctors.html">Meet the Doctors</a></li>
-          <li><a href="careCredit.html">CareCredit</a></li>
-          <li><a href="contactUs.html">Contact Us</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-3 col-md-3 col-sm-3 hidden-xs">
-        <div class="clinic-lg clinic-md" style="padding-top: 50px">
-          <a href="assets/clinic.jpg"><img src="assets/clinic.jpg" class="img-responsive" alt="Twin Peaks Veterinary Clinic" /></a>
-
-          <h5>
-            4007 S. Lincoln Ave., Suite 470<br /> Loveland, CO 80537
-          </h5>
+        <div class="collapse navbar-collapse" id="navbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="healthPlan.html">Health Plans</a></li>
+            <li><a href="pharmacy.html">Online Store & Pharmacy</a></li>
+            <li><a href="meetTheDoctors.html">Meet the Doctors</a></li>
+            <li><a href="careCredit.html">CareCredit</a></li>
+            <li><a href="contactUs.html">Contact Us</a></li>
+          </ul>
         </div>
       </div>
-      <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12" style="padding-bottom: 20px">
-        <h1>Welcome to Twin Peaks Veterinary Clinic!</h1>
+    </nav>
 
-        <h3>
-          Home of the affordable
-          <a href="healthPlan.html">Health Plans</a>!<br />
-        </h3>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-3 col-sm-3 hidden-xs">
+          <div class="clinic-lg clinic-md" style="padding-top: 50px">
+            <a href="assets/clinic.jpg"
+              ><img
+                src="assets/clinic.jpg"
+                class="img-responsive"
+                alt="Twin Peaks Veterinary Clinic"
+            /></a>
 
-        <p>
-          We are an innovative, locally-owned practice offering veterinary care mainly to dogs and cats. Our goal is to provide a way for pets to get the care they need by removing financial barriers for pet parents. Our Health Plans are designed to do exactly
-          that!
-        </p>
-        <p>
-          Our Health Plans are different and flexible by nature. They are not packages of services, but rather <u>packages of protection</u>!
-        </p>
-        <p>
-          <b>When your pet is sick or injured we want the conversation to be
+            <h5>
+              4007 S. Lincoln Ave., Suite 470<br />
+              Loveland, CO 80537
+            </h5>
+          </div>
+        </div>
+        <div
+          class="col-lg-9 col-md-9 col-sm-9 col-xs-12"
+          style="padding-bottom: 20px"
+        >
+          <h1>Welcome to Twin Peaks Veterinary Clinic!</h1>
+
+          <h3>
+            Home of the affordable
+            <a href="healthPlan.html">Health Plans</a>!<br />
+          </h3>
+
+          <p>
+            We are an innovative, locally-owned practice offering veterinary
+            care mainly to dogs and cats. Our goal is to provide a way for pets
+            to get the care they need by removing financial barriers for pet
+            parents. Our Health Plans are designed to do exactly that!
+          </p>
+          <p>
+            Our Health Plans are different and flexible by nature. They are not
+            packages of services, but rather <u>packages of protection</u>!
+          </p>
+          <p>
+            <b
+              >When your pet is sick or injured we want the conversation to be
               about him/her getting the best care – not about what care he/she
               can do without.</b
             >
